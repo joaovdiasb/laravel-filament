@@ -275,6 +275,7 @@ return [
 
     'middleware' => [
         'auth' => [
+            \Joaovdiasb\LaravelMultiTenancy\Http\Middleware\TenantChangeConnection::class,
             Authenticate::class,
         ],
         'base' => [
