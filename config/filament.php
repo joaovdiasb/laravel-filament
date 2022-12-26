@@ -282,6 +282,7 @@ return [
             EncryptCookies::class,
             AddQueuedCookiesToResponse::class,
             StartSession::class,
+            \Joaovdiasb\LaravelMultiTenancy\Http\Middleware\TenantChangeConnection::class,
             AuthenticateSession::class,
             ShareErrorsFromSession::class,
             VerifyCsrfToken::class,
